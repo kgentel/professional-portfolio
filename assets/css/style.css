@@ -4,16 +4,17 @@
     color: #FFFFFF !important;
   }
 
+
 body {
     margin: 0;
-    background-color: #448A71 !important;
+    background-color: #0d141a !important;
     color: #FFFFFF !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* HEADER / NAV BAR STYLES START */
 header {
-    background-color: #448A71;
+    background-color: #0d141a;
     /* border: #FFFFFF solid 1px; */
     display: flex;
     flex-wrap: wrap;
@@ -23,12 +24,12 @@ header {
     top: 0;
   }
 
-.circle {
+/* .circle {
     border-radius: 50%;
     width: 80px;
     height: 80px;
    
-}
+} */
 
 header h6 {
     /* font-weight: bold; */
@@ -67,8 +68,13 @@ header nav ul li a {
 }
 /* HEADER / NAV BAR STYLES END */
 
-#lake {
+/* #lake {
    width: 100%;
+} */
+
+#image {
+    width: 200px;
+    height: 350px;
 }
 
 .me {
@@ -116,9 +122,45 @@ header nav ul li a {
     color: #C2D4D0 !important;
 }
 
-.projects {
+/* .projects {
     margin-bottom: 100px;
+} */
+
+/* Projects section */
+
+.projects-section h2 {
+    text-align: center;
+    font-family: sans-serif;
 }
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.project {
+    margin: 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    flex: 1;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 25px;
+  line-height: 1.3;
+}
+
+.project-title {
+    text-align: center;
+}
+
 
 footer {
     padding: 10px;
